@@ -1,0 +1,1 @@
+export { default } from "file:///Users/justinhassler/nuxt3_storyblok/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
