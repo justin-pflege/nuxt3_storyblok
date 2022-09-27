@@ -1,42 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Nuxt + Storyblok minimal setup
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+Storyblok docu: https://www.storyblok.com/lp/developers
+
+## Goal
+
+Successfully connect a Nuxt3 app with Storyblok and edit/change/populate content via Storyblok editor
+
 ## Setup
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
 yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
 ## Development Server
+yarn dev:https
 
-Start the development server on http://localhost:3000
+=> required to run on https for storyblok live editor
+=> may need some additional steps to make it work
 
-```bash
-npm run dev
-```
+## What else
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+- tested Nuxt3 navigation/routing
+- tested Nuxt3 Layouts
+- ...
